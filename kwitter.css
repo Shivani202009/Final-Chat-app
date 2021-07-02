@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(to right top, #dae13b, #7fe776, #00e2b5, #00d6e4, #00c4f7, #00c4fa, #00c4fc, #00c4ff, #00d8fe, #00e8e2, #00f4af, #5ffb6d);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.login_div {
+    background: rgba(255, 255, 255, 0.8);
+    float: none;
+    border-radius: 15px;
+}
+
+#logo {
+    width: 100;
+    border-radius: 50%;
+}
+
+#logo1 {
+    margin-left: 20px;
+}
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.input_div_message_page #msg {
+    width: 50%;
+}

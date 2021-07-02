@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Chatt App</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <button id="logout" class="btn btn-danger">logout</button>
+
+        <center>
+            <h1 class="header">Chatt App <img id="logo1" src="https://i.gifer.com/origin/98/98447b873b927d46f752e9e0fc9c2910_w200.gif"></h1>
+            <h3 id="welcome"></h3>
+            <div class="form-group input_div_room_page col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label>#Add Room:</label>
+                <input type="text" class="form-control" id="roominput" placeholder="Enter Room Name">
+                <br>
+                <button class="btn btn-success" onclick="addroom()">Add Room</button>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label class="color_white">#TRENDINGROOMS</label>
+
+                <div id="output"></div>
+            </div>
+
+        </center>
+    </div>
+    <script src="kwitter_room.js"></script>
+
+</body>

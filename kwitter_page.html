@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Chatt App</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitter.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="logout" class="btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+            <h1 class="header">
+                Lets Chat
+                <sup>
+          
+        </sup>
+            </h1>
+            <div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+        </center>
+    </div>
+
+    <center>
+        <div class="input_div_message_page">
+            <label>Send:</label>
+            <br>
+            <input type="text" class="form-control" id="msg" placeholder="Type your message">
+            <br>
+            <button class="btn btn-success" onclick="send()">Send</button>
+            <br>
+        </div>
+    </center>
+
+    <script src="kwitter_page.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
